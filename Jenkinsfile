@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('code') {
             steps {
-                git branch: 'main', url: 'https://github.com/shaiksulthanhussainvali/Project-3-Django-Application.git'
+                git branch: 'main', url: 'https://github.com/Yaswanthkumar789/Project-3-Django_Application.git'
             }
         }
         stage("Build"){
